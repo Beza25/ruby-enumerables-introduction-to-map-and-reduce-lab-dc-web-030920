@@ -39,7 +39,7 @@ def reduce_to_total(source_array)
   end
   total
 end
-def reduce_like(source_array, starting_point)
+def reduce_to_total(source_array, starting_point)
   index = 0
   total = starting_point
   while index < source_array.length do
